@@ -1,0 +1,42 @@
+body{
+    background-color: aliceblue;
+}
+
+#date{
+    height:50px;
+    font-size: large;
+}
+
+#name{
+    margin-left: 10px;
+    padding: 15px;
+    width:80%;
+    height:50px;
+    font-size: large;
+}
+
+h1{
+    text-align: left;
+    background: #67cebb;
+    padding: 15px;
+}
+
+div{
+    display: flex;
+}
+
+#checkbox{
+    margin-left: 10px;
+    width:3%
+}
+
+#show_date{
+    width:105px;
+    border-radius: 10%;
+    background-color: rgb(107, 158, 188);
+}
+
+#delete{
+    background-color: aliceblue;
+    border: none;
+}
