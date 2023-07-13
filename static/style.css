@@ -1,11 +1,24 @@
 body{
-    background-color: aliceblue;
+    background-color: rgb(212, 99, 0);
 }
 
-#date{
-    height:50px;
-    font-size: large;
+.navy{
+    text-align: left;
+    background:  rgb(181, 62, 15);
+    overflow: hidden;
+    width:100%;
+    height:85px;    
 }
+
+
+.title{
+    font-size:30px; 
+    color: white;
+    font-family:cursive;
+    width:40%
+}
+
+
 
 #name{
     margin-left: 10px;
@@ -15,28 +28,16 @@ body{
     font-size: large;
 }
 
-h1{
-    text-align: left;
-    background: #67cebb;
-    padding: 15px;
-}
 
 div{
     display: flex;
 }
 
-#checkbox{
-    margin-left: 10px;
-    width:3%
+.title{
+    text-align: left;
+    font-size: 40px;
 }
 
-#show_date{
-    width:105px;
-    border-radius: 10%;
-    background-color: rgb(107, 158, 188);
-}
-
-#delete{
-    background-color: aliceblue;
-    border: none;
+*, ::after, ::before {
+    box-sizing: border-box;
 }
